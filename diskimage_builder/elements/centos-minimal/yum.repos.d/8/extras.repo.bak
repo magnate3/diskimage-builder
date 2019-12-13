@@ -1,0 +1,5 @@
+[extras]
+name=CentOS-$releasever - Extras
+mirrorlist=http://mirrors.aliyun.com/centos/$releasever/AppStream/$basearch/os/
+gpgcheck=0
+

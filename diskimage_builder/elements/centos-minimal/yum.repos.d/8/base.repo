@@ -1,0 +1,8 @@
+[LocalRepo_BaseOS]
+name=CentOS-$releasever - Base
+baseurl=file:///mnt/dvd/BaseOS
+gpgcheck=0
+#gpgkey=file:///mnt/dvd/BaseOS/RPM-GPG-KEY-redhat-release
+enabled=1
+keepcache=true
+fastestmirror=true

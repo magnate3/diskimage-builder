@@ -1,0 +1,8 @@
+[LocalRepo_AppStream]
+name=CentOS-$releasever - AppStream
+baseurl=file:///mnt/dvd/AppStream
+enabled=1
+gpgcheck=0
+#gpgkey=file:///mnt/dvd/AppStream/RPM-GPG-KEY-redhat-beta
+keepcache=true
+fastestmirror=true

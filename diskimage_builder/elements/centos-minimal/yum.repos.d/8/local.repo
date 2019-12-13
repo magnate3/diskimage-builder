@@ -1,0 +1,13 @@
+[LocalRepo_BaseOS]
+name=CentOS-$releasever - Base
+baseurl=file:///mnt/dvd/BaseOS
+gpgcheck=0
+gpgkey=file:///mnt/dvd/BaseOS/RPM-GPG-KEY-redhat-release
+enabled=1
+
+[LocalRepo_AppStream]
+name=CentOS-$releasever - AppStream
+baseurl=file:///mnt/dvd/AppStream
+enabled=1
+gpgcheck=0
+gpgkey=file:///mnt/dvd/AppStream/RPM-GPG-KEY-redhat-beta
