@@ -1,5 +1,5 @@
 # diskimage-builder
-1、the centos8_nlvm.qcow2 should be withour llvm patition
+1、the centos8_nlvm.qcow2 should be without llvm patition
 
 image-builder supports centos8 by using aliyun DIB_DISTRIBUTION_MIRROR
 
