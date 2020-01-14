@@ -4,6 +4,7 @@
 image-builder supports centos8 by using aliyun DIB_DISTRIBUTION_MIRROR
 
 env DIB_DEBUG_TRACE=3 DIB_LOCAL_IMAGE=/data1/isoImages/centos8_nlvm.qcow2   DIB_DISTRIBUTION_MIRROR=https://mirrors.aliyun.com/centos/    disk-image-create vm block-device-efi centos8   dhcp-all-interfaces  -o centos8-baremetal.qcow2 -a arm64 --logfile ./centos8-os_v6.log
+
 2、update grub.cfg 
 qemu-img convert  -f   qcow2 -O raw  centos8-baremetal.qcow2   centos8-baremetal.qcow2
 
